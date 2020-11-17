@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
+import Resources from "./components/Resources";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/resources" component={Resources} />
         </Switch>
       </Router>
     </div>
