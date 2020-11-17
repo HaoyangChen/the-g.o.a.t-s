@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
@@ -5,9 +6,9 @@ const Navigation = () => {
   const rootPath = useLocation().pathname.split("/")[1];
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        Sanctuary
-      </a>
+      <Link className="navbar-brand" to="/">
+        <h3>Sanctuary</h3>
+      </Link>
       <button
         class="navbar-toggler"
         type="button"
@@ -21,11 +22,6 @@ const Navigation = () => {
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          {/* <li class="nav-item active">
-            <a class="nav-link" href="#">
-              Home <span class="sr-only">(current)</span>
-            </a>
-          </li> */}
           <li className={"nav-item " + (rootPath === "" ? "active" : "")}>
             <Link className="nav-link" to="/">
               Home
@@ -61,11 +57,6 @@ const Navigation = () => {
               </a>
             </div>
           </li>
-          {/* <li class="nav-item">
-            <a class="nav-link" href="#">
-              Resources
-            </a>
-          </li> */}
           <li
             className={"nav-item " + (rootPath === "resources" ? "active" : "")}
           >
@@ -73,15 +64,21 @@ const Navigation = () => {
               Resources
             </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li
+            className={
+              "nav-item " + (rootPath === "getinvolved" ? "active" : "")
+            }
+          >
+            <Link className="nav-link" to="/getinvolved">
               Get Involved
-            </a>
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li
+            className={"nav-item " + (rootPath === "contact" ? "active" : "")}
+          >
+            <Link className="nav-link" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
