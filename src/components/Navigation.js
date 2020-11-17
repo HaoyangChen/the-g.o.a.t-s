@@ -40,21 +40,21 @@ const Navigation = () => {
               Learn
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">
+              <Link className="dropdown-item" to="/faq">
                 FAQ
-              </a>
-              <a class="dropdown-item" href="#">
+              </Link>
+              <Link className="dropdown-item" to="/terms">
                 Terms
-              </a>
-              <a class="dropdown-item" href="#">
+              </Link>
+              <Link className="dropdown-item" to="/causes">
                 Causes
-              </a>
-              <a class="dropdown-item" href="#">
+              </Link>
+              <Link className="dropdown-item" to="/process">
                 Process
-              </a>
-              <a class="dropdown-item" href="#">
+              </Link>
+              <Link className="dropdown-item" to="/stories">
                 Their Stories
-              </a>
+              </Link>
             </div>
           </li>
           <li
