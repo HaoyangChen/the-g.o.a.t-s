@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Resources from "./components/Resources";
 import GetInvolved from "./components/Getinvolved";
@@ -29,6 +30,7 @@ const App = () => {
           <Route exact path="/process" component={Process} />
           <Route exact path="/stories" component={Stories} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
