@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, Container, Row, Col, Jumbotron } from 'react-bootstrap';
+import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 import { Box, Typography, Paper, Hidden, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
@@ -8,15 +8,6 @@ const Terms = () => {
   return (
 
     <main>
-      {/* <Jumbotron fluid>
-        <Container>
-          <h1>Terminology</h1>
-          <p>
-            This is the page for Terms
-          </p>
-          <img src='banner.jpg' fluid/>
-        </Container>
-      </Jumbotron> */}
 
       <Card className="bg-light text-black">
         <Card.Img src="banner.jpg" alt="Card image" height='230' />
@@ -336,6 +327,7 @@ const Terms = () => {
             </Col >
           </Col>
         </Row>
+        <br></br>
       </Container >
 
     </main>
