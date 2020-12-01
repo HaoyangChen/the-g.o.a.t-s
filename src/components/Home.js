@@ -71,6 +71,8 @@ const Home = () => {
       </div>
       <div class="main-section grey-background">
         <LeftTextRightImage
+          title="Learn."
+          paragraph="Find information about key terms, causes, the process of trafficking, and more -- allowing you to approach a difficult problem with the right context."
           imageSrc={learn}
           imageAlt="Learn"
           underlineColor="blue-underline"

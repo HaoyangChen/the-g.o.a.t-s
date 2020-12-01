@@ -7,14 +7,10 @@ const Process = (props) => {
     <div className={"left-right " + props.backgroundColor}>
       <div className="half-half text-align text-left pd-right ">
         <h2 className={"underline-with-color " + props.underlineColor}>
-          Learn.
+          {props.title}
         </h2>
-        <p>
-          Find information about key terms, causes, the process of trafficking,
-          and more -- allowing you to approach a difficult problem with the
-          right context.
-        </p>
-        <span>see more</span>
+        <p class="mt-paragraph">{props.paragraph}</p>
+        <span class="bold-style">see more</span>
         <img src={props.arrowImage} alt={props.arrowImageAlt}></img>
       </div>
       <div class="half-half">
