@@ -1,0 +1,32 @@
+.left-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.half-half {
+  flex-basis: 50%;
+}
+
+.half-half img {
+  max-width: 100%;
+}
+
+.pd-right {
+  padding-right: 82px;
+}
+
+.underline-with-color {
+  border-bottom: 5px solid;
+  width: fit-content;
+}
+
+.blue-underline {
+  border-color: #4993bd;
+}
+
+.grey-background {
+  background-color: #f0f0f0;
+}

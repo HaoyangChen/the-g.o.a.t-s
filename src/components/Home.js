@@ -1,7 +1,10 @@
 import React from "react";
-import logo from "../assets/logo.svg";
+// import logo from "../assets/logo.svg";
 // import { Card } from "react-bootstrap";
 import carouselImage1 from "../assets/home/carousel1.png";
+import LeftTextRightImage from "./LeftTextRightImage";
+import learn from "../assets/home/learn.png";
+import arrowLeft from "../assets/home/arrow-left.svg";
 
 const Home = () => {
   return (
@@ -66,8 +69,16 @@ const Home = () => {
           <span class="sr-only">Next</span>
         </a>
       </div>
-
-      <img className="App-logo" src={logo} alt="React Logo" />
+      <div class="main-section grey-background">
+        <LeftTextRightImage
+          imageSrc={learn}
+          imageAlt="Learn"
+          underlineColor="blue-underline"
+          backgroundColor="grey-background"
+          arrowImage={arrowLeft}
+          arrowImageAlt="left arrow"
+        />
+      </div>
     </main>
   );
 };
