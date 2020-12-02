@@ -1,7 +1,6 @@
 import React from "react";
 // import logo from "../assets/logo.svg";
 // import { Card } from "react-bootstrap";
-import ReactPlayer from "react-player";
 import carouselImage1 from "../assets/home/carousel1.png";
 import LeftTextRightImage from "./LeftTextRightImage";
 import RightTextLeftImage from "./RightTextLeftImage";
@@ -85,7 +84,28 @@ const Home = () => {
             </p>
           </div>
           <div class="half-half">
-            <ReactPlayer url="https://www.youtube.com/watch?v=DWoHgIoLCPg" />
+            {/* <ReactPlayer url="https://www.youtube.com/watch?v=DWoHgIoLCPg" /> */}
+            <div
+              className="video"
+              style={{
+                position: "relative",
+                paddingBottom: "56.25%" /* 16:9 */,
+                paddingTop: 25,
+                height: 0,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/DWoHgIoLCPg"
+                frameBorder="0"
+              />
+            </div>
           </div>
         </div>
         <LeftTextRightImage
