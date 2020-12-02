@@ -5,3 +5,13 @@
 .color-white {
   color: white;
 }
+
+.img-fluid {
+  height: 110px !important;
+}
+
+@media (max-width: 992px) {
+  .img-fluid {
+    height: auto !important;
+  }
+}
