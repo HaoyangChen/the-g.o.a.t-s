@@ -1,6 +1,7 @@
 import React from "react";
 // import logo from "../assets/logo.svg";
 // import { Card } from "react-bootstrap";
+import ReactPlayer from "react-player";
 import carouselImage1 from "../assets/home/carousel1.png";
 import LeftTextRightImage from "./LeftTextRightImage";
 import RightTextLeftImage from "./RightTextLeftImage";
@@ -74,12 +75,25 @@ const Home = () => {
       </div>
       {/* <div class="main-section"> */}
       <Container>
+        <div className="left-right row-reversed">
+          <div className="half-half text-align text-left pd-left">
+            <h2 className={"underline-with-color blue-underline"}>Overview</h2>
+            <p class="mt-paragraph">
+              Watch the introductory video to gain an understanding of the human
+              and sex trafficking crisis in the United States, and see what you
+              can do to help.
+            </p>
+          </div>
+          <div class="half-half">
+            <ReactPlayer url="https://www.youtube.com/watch?v=DWoHgIoLCPg" />
+          </div>
+        </div>
         <LeftTextRightImage
           title="Learn."
           paragraph="Find information about key terms, causes, the process of trafficking, and more -- allowing you to approach a difficult problem with the right context."
           imageSrc={learn1}
           imageAlt="Learn"
-          underlineColor="blue-underline"
+          underlineColor="bluepurple-underline"
         />
         <RightTextLeftImage
           title="Find Resources."
