@@ -27,6 +27,10 @@
   border-color: #4993bd;
 }
 
+.purple-underline {
+  border-color: #ae87e1;
+}
+
 .grey-background {
   background-color: #f0f0f0;
 }
@@ -44,4 +48,16 @@
   font-style: normal;
   font-weight: normal;
   line-height: 42px;
+}
+
+.row-reversed {
+  flex-direction: row-reverse;
+}
+
+.green-underline {
+  border-color: #77b1a7;
+}
+
+.pd-left {
+  padding-left: 100px;
 }

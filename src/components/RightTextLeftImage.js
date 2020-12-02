@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/LeftTextRightImage.css";
 
-const LeftTextRightImage = (props) => {
+const RightTextLeftImage = (props) => {
   return (
-    <div className="left-right">
-      <div className="half-half text-align text-left pd-right ">
+    <div className="left-right row-reversed">
+      <div className="half-half text-align text-left pd-left">
         <h2 className={"underline-with-color " + props.underlineColor}>
           {props.title}
         </h2>
@@ -17,4 +17,4 @@ const LeftTextRightImage = (props) => {
   );
 };
 
-export default LeftTextRightImage;
+export default RightTextLeftImage;
