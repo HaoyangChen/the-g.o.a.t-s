@@ -104,6 +104,7 @@ const Home = () => {
                 }}
                 src="https://www.youtube.com/embed/DWoHgIoLCPg"
                 frameBorder="0"
+                allowFullScreen
               />
             </div>
           </div>
