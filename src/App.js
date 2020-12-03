@@ -21,14 +21,14 @@ const App = () => {
         <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/resources" component={Resources} />
+          {/* <Route exact path="/resources" component={Resources} /> */}
           <Route exact path="/getinvolved" component={GetInvolved} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/faq" component={FAQ} />
+          {/* <Route exact path="/faq" component={FAQ} /> */}
           <Route exact path="/terms" component={Terms} />
-          <Route exact path="/causes" component={Causes} />
+          {/* <Route exact path="/causes" component={Causes} />
           <Route exact path="/process" component={Process} />
-          <Route exact path="/stories" component={Stories} />
+          <Route exact path="/stories" component={Stories} /> */}
         </Switch>
         <Footer />
       </Router>
