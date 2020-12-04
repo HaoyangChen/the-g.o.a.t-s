@@ -31,22 +31,22 @@ const Terms = () => {
       <br></br>
       <Container>
         <Row>
-          <Col>
+          <Col sm={8}>
             <Row>
               <h1>TYPES</h1>
             </Row>
             <Row>
-              <p>I am the body text and i am saying some really important stuff and whatever.</p>
+              <p align="left">The following terms encompass the three broad types or subtypes of trafficking. While these are not all-inclusive, these are the most common types of trafficking that occur both nationally and globally, and deny victims of rights, safety, and humanity.</p>
             </Row>
           </Col>
-          <Col>
-            <img src='Email.svg' height='200'></img>
+          <Col sm={4}>
+            <img src='type.svg' height='200'></img>
           </Col>
           <br></br>
         </Row>
         <br></br>
         <Row>
-          <Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography component='overline' variant='overline' color='primary' >
@@ -70,7 +70,7 @@ const Terms = () => {
               </ExpansionPanelDetails>
             </ExpansionPanel >
           </Col>
-          <Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography component='overline' variant='overline' color='primary' >
@@ -94,25 +94,24 @@ const Terms = () => {
               </ExpansionPanelDetails>
             </ExpansionPanel >
           </Col>
-          <Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography component='overline' variant='overline' color='primary' >
-                  Sex Trafficking
+                  Labor Trafficking
                   </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
                 <Container>
                   <Row>
-                    <Typography>/seks tra·fuh·kuhng/ </Typography>
+                    <Typography>/lei·br tra·fuh·kuhng/ </Typography>
                   </Row>
                   <Row>
                     <Typography>noun</Typography>
                   </Row>
                   <Row style={{ paddingTop: '1em' }}>
                     <Typography align='left' component='body1' variant='body1'>
-                      The action or practice of illegally transporting people from one country or area to another for the purpose of sexual exploitation.
-                        </Typography>
+                      Labor trafficking in the United States is a form of human trafficking where victims are made to perform a task through force, fraud or coercion as it occurs in the United States. Labor trafficking is typically distinguished from sex trafficking, where the task is sexual in nature.                         </Typography>
                   </Row>
                 </Container>
               </ExpansionPanelDetails>
@@ -121,22 +120,22 @@ const Terms = () => {
         </Row>
         <br></br>
         <Row>
-          <Col>
-            <img src='Email.svg' height='200'></img>
+          <Col sm={8}>
+            <Row >
+              <h1 >METHODS</h1>
+            </Row>
+            <Row>
+              <p align='left'>These terms include some of the methods through which victims become involved or engage in human or sex trafficking -- such as through coercion, deception, abuse, grooming, or other means that intend to convince or force victims into trafficking.</p>
+            </Row>
           </Col>
-          <Col>
-            <Row>
-              <h1>METHODS</h1>
-            </Row>
-            <Row>
-              <p>I am the body text and i am saying some really important stuff and whatever.</p>
-            </Row>
+          <Col sm={4}>
+            <img src='method.svg' height='200'></img>
           </Col>
           <br></br>
         </Row>
         <br></br>
         <Row>
-          <Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography component='overline' variant='overline' color='primary' >
@@ -161,30 +160,31 @@ const Terms = () => {
               </ExpansionPanelDetails>
             </ExpansionPanel >
           </Col>
-          <Col> <ExpansionPanel style={{ background: '#F2F2F2' }}>
-            <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography component='overline' variant='overline' color='primary' >
-                Grooming
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
+            <ExpansionPanel style={{ background: '#F2F2F2' }}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography component='overline' variant='overline' color='primary' >
+                  Grooming
                   </Typography>
-            </ExpansionPanelSummary>
-            <ExpansionPanelDetails>
-              <Container>
-                <Row>
-                  <Typography>/groo·muhng/</Typography>
-                </Row>
-                <Row>
-                  <Typography>verb</Typography>
-                </Row>
-                <Row style={{ paddingTop: '1em' }}>
-                  <Typography align='left' component='body1' variant='body1'>
-                    The process a trafficker uses to manipulate a victim into prostituting for him, commonly includes romantic gestures and promises.
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Container>
+                  <Row>
+                    <Typography>/groo·muhng/</Typography>
+                  </Row>
+                  <Row>
+                    <Typography>verb</Typography>
+                  </Row>
+                  <Row style={{ paddingTop: '1em' }}>
+                    <Typography align='left' component='body1' variant='body1'>
+                      The process a trafficker uses to manipulate a victim into prostituting for him, commonly includes romantic gestures and promises.
                         </Typography>
-                </Row>
-              </Container>
-            </ExpansionPanelDetails>
-          </ExpansionPanel >
+                  </Row>
+                </Container>
+              </ExpansionPanelDetails>
+            </ExpansionPanel >
           </Col>
-          <Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography component='overline' variant='overline' color='primary' >
@@ -208,24 +208,48 @@ const Terms = () => {
               </ExpansionPanelDetails>
             </ExpansionPanel >
           </Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
+            <ExpansionPanel style={{ background: '#F2F2F2' }}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography component='overline' variant='overline' color='primary' >
+                  Isolation
+                  </Typography>
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Container>
+                  <Row>
+                    <Typography>/ai·suh·lei·shn/</Typography>
+                  </Row>
+                  <Row>
+                    <Typography>verb</Typography>
+                  </Row>
+                  <Row style={{ paddingTop: '1em' }}>
+                    <Typography align='left' component='body1' variant='body1'>
+                      the process or fact of isolating or being isolated.
+                        </Typography>
+                  </Row>
+                </Container>
+              </ExpansionPanelDetails>
+            </ExpansionPanel >
+          </Col>
         </Row>
         <br></br>
         <Row>
-          <Col>
+          <Col sm={8}>
             <Row>
               <h1>SYSTEM</h1>
             </Row>
             <Row>
-              <p>I am the body text and i am saying some really important stuff and whatever.</p>
+              <p align='left'>These terms involve the system that supports/allows human and sex trafficking to occur, and defines the actors and participants that permit and promote the continued cycle of violence, harm, and subjegation of human trafficking victims. </p>
             </Row>
           </Col>
-          <Col>
-            <img src='Email.svg' height='200'></img>
+          <Col sm={4}>
+            <img src='system.svg' height='200'></img>
           </Col>
         </Row>
         <br></br>
         <Row>
-          <Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography component='overline' variant='overline' color='primary' >
@@ -249,70 +273,120 @@ const Terms = () => {
               </ExpansionPanelDetails>
             </ExpansionPanel >
           </Col>
-          <Col><ExpansionPanel style={{ background: '#F2F2F2' }}>
-            <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography component='overline' variant='overline' color='primary' >
-                Circuit
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
+            <ExpansionPanel style={{ background: '#F2F2F2' }}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography component='overline' variant='overline' color='primary' >
+                  Circuit
                   </Typography>
-            </ExpansionPanelSummary>
-            <ExpansionPanelDetails>
-              <Container>
-                <Row>
-                  <Typography>/sur·kuht/</Typography>
-                </Row>
-                <Row>
-                  <Typography>noun</Typography>
-                </Row>
-                <Row style={{ paddingTop: '1em' }}>
-                  <Typography align='left' component='body1' variant='body1'>
-                    A series of cities among which prostituted people are moved. One example would be the West Coast circuit of San Diego, Las Vegas, Portland, and the cities in between. The term can also refer to a chain of states such as the “Minnesota pipeline” by which victims are moved through a series of locations from Minnesota to markets in New York.
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Container>
+                  <Row>
+                    <Typography>/sur·kuht/</Typography>
+                  </Row>
+                  <Row>
+                    <Typography>noun</Typography>
+                  </Row>
+                  <Row style={{ paddingTop: '1em' }}>
+                    <Typography align='left' component='body1' variant='body1'>
+                      A series of cities among which prostituted people are moved. One example would be the West Coast circuit of San Diego, Las Vegas, Portland, and the cities in between. The term can also refer to a chain of states such as the “Minnesota pipeline” by which victims are moved through a series of locations from Minnesota to markets in New York.
                         </Typography>
-                </Row>
-              </Container>
-            </ExpansionPanelDetails>
-          </ExpansionPanel ></Col>
-          <Col> <ExpansionPanel style={{ background: '#F2F2F2' }}>
-            <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography component='overline' variant='overline' color='primary' >
-                Finesse Pimp
+                  </Row>
+                </Container>
+              </ExpansionPanelDetails>
+            </ExpansionPanel >
+          </Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
+            <ExpansionPanel style={{ background: '#F2F2F2' }}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography component='overline' variant='overline' color='primary' >
+                  Finesse Pimp
                   </Typography>
-            </ExpansionPanelSummary>
-            <ExpansionPanelDetails>
-              <Container>
-                <Row>
-                  <Typography>/fuh·nes pimp/</Typography>
-                </Row>
-                <Row>
-                  <Typography>noun</Typography>
-                </Row>
-                <Row style={{ paddingTop: '1em' }}>
-                  <Typography align='left' component='body1' variant='body1'>
-                    One who prides himself on controlling others primarily through psychological manip­ulation. Although he may shower his victims with affection and gifts (especially during the recruitment phase), the threat of violence is always present
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Container>
+                  <Row>
+                    <Typography>/fuh·nes pimp/</Typography>
+                  </Row>
+                  <Row>
+                    <Typography>noun</Typography>
+                  </Row>
+                  <Row style={{ paddingTop: '1em' }}>
+                    <Typography align='left' component='body1' variant='body1'>
+                      One who prides himself on controlling others primarily through psychological manip­ulation. Although he may shower his victims with affection and gifts (especially during the recruitment phase), the threat of violence is always present
                   </Typography>
-                </Row>
-              </Container>
-            </ExpansionPanelDetails>
-          </ExpansionPanel >
+                  </Row>
+                </Container>
+              </ExpansionPanelDetails>
+            </ExpansionPanel >
+          </Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
+            <ExpansionPanel style={{ background: '#F2F2F2' }}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography component='overline' variant='overline' color='primary' >
+                  Madam
+                  </Typography>
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Container>
+                  <Row>
+                    <Typography>/ma·dm/</Typography>
+                  </Row>
+                  <Row>
+                    <Typography>noun</Typography>
+                  </Row>
+                  <Row style={{ paddingTop: '1em' }}>
+                    <Typography align='left' component='body1' variant='body1'>
+                      An older woman who manages a brothel, escort service or other prostitution establishment. She may work alone or in collaboration with other traffickers.
+                    </Typography>
+                  </Row>
+                </Container>
+              </ExpansionPanelDetails>
+            </ExpansionPanel >
+          </Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
+            <ExpansionPanel style={{ background: '#F2F2F2' }}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography component='overline' variant='overline' color='primary' >
+                  Bottom
+                  </Typography>
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Container>
+                  <Row>
+                    <Typography>/baa·tm/</Typography>
+                  </Row>
+                  <Row>
+                    <Typography>noun</Typography>
+                  </Row>
+                  <Row style={{ paddingTop: '1em' }}>
+                    <Typography align='left' component='body1' variant='body1'>
+                      A female appointed by the trafficker/pimp to supervise the others and report rule violations. Operating as his “right hand,” the Bottom may help instruct victims, collect money, book hotel rooms, post ads, or inflict punishments on other girls.                    </Typography>
+                  </Row>
+                </Container>
+              </ExpansionPanelDetails>
+            </ExpansionPanel >
           </Col>
           <br></br>
         </Row>
         <br></br>
         <Row>
-          <Col>
-            <img src='Email.svg' height='200'></img>
-          </Col>
-          <Col>
+          <Col sm={8}>
             <Row>
               <h1>CONTROL</h1>
             </Row>
             <Row>
-              <p>I am the body text and i am saying some really important stuff and whatever.</p>
+              <p align='left'>These terms are all ways in which human traffickers maintain or exert control over their victims, and otherwise force them into staying, or prevent them from leaving. These tactics are very effective at keeping victims trapped, and discourage them from leaving, even when the traffickers are not around to exert this control.</p>
             </Row>
+          </Col>
+          <Col sm={4}>
+            <img src='control.svg' height='200'></img>
           </Col>
         </Row>
         <br></br>
         <Row>
-          <Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography component='overline' variant='overline' color='primary' >
@@ -336,7 +410,7 @@ const Terms = () => {
               </ExpansionPanelDetails>
             </ExpansionPanel >
           </Col>
-          <Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography component='overline' variant='overline' color='primary' >
@@ -360,7 +434,7 @@ const Terms = () => {
               </ExpansionPanelDetails>
             </ExpansionPanel >
           </Col>
-          <Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography component='overline' variant='overline' color='primary' >
@@ -379,6 +453,54 @@ const Terms = () => {
                     <Typography align='left' component='body1' variant='body1'>
                       The money a pimp will demand from a victim who is thinking about trying to leave. It will be an exorbitant sum, to discourage her from leaving. Most pimps never let their victims leave freely.
                         </Typography>
+                  </Row>
+                </Container>
+              </ExpansionPanelDetails>
+            </ExpansionPanel >
+          </Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
+            <ExpansionPanel style={{ background: '#F2F2F2' }}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography component='overline' variant='overline' color='primary' >
+                  Collusion
+                </Typography>
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Container>
+                  <Row>
+                    <Typography>/kuh·l·zhn/</Typography>
+                  </Row>
+                  <Row>
+                    <Typography>noun</Typography>
+                  </Row>
+                  <Row style={{ paddingTop: '1em' }}>
+                    <Typography align='left' component='body1' variant='body1'>
+                      secret or illegal cooperation or conspiracy, especially in order to cheat or deceive others.
+                    </Typography>
+                  </Row>
+                </Container>
+              </ExpansionPanelDetails>
+            </ExpansionPanel >
+          </Col>
+          <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
+            <ExpansionPanel style={{ background: '#F2F2F2' }}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography component='overline' variant='overline' color='primary' >
+                  Debt Bondage
+                </Typography>
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Container>
+                  <Row>
+                    <Typography>/det baan·dij/</Typography>
+                  </Row>
+                  <Row>
+                    <Typography>noun</Typography>
+                  </Row>
+                  <Row style={{ paddingTop: '1em' }}>
+                    <Typography align='left' component='body1' variant='body1'>
+                      Peonage, also known as debt slavery or bonded labour, is the pledge of a person's services as security for the repayment for a debt or other obligation, where the terms of the repayment are not clearly or reasonably stated, and the person who is holding the debt thus has some control over the laborer.
+                    </Typography>
                   </Row>
                 </Container>
               </ExpansionPanelDetails>

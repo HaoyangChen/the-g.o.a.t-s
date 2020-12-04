@@ -101,7 +101,7 @@ const Getinvolved = () => {
       </Container>
       <Container>
         <Row>
-          <Col sm={12} md={12} lg={6}>
+          <Col sm={12} md={12} lg={6} style={{ padding: '1em' }}>
             <Card>
               <Card.Header style={{ color: '#4C4AC2' }} align="left"><h4>Stay Informed</h4></Card.Header>
               <Card.Body>
@@ -112,7 +112,8 @@ const Getinvolved = () => {
                   <Col sm={9}>
                     <Card.Title align="left"><h5><em>Why staying educated can save lives</em></h5></Card.Title>
                     <Card.Text align="left">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat venenatis est non euismod. Mauris quis sem ex. Sed eros nulla, gravida ut diam et, lobortis ullamcorper nibh. Mauris consequat faucibus quam, id suscipit massa mollis in. Curabitur rutrum magna dui. Vivamus vitae finibus est, id tincidunt velit. Mauris pellentesque magna vel magna fringilla, nec tincidunt sapien blandit. Curabitur imperdiet, lacus at varius elementum, leo lorem interdum dui, tempus bibendum sem tellus eget ante.              </Card.Text>
+                      <p>Continue to help us spread awareness and generate much needed conversations on the growing issue of human and sex trafficking by posting and sharing on different social media platforms! Let’s work together to shed light on this important issue in order to enact real change whether its through signing and sharing petitions, fundraising money, volunteering, and much more.</p>
+                    </Card.Text>
                     {/* <Button variant="primary">Go somewhere</Button> */}
                   </Col>
                 </Row>
@@ -120,7 +121,7 @@ const Getinvolved = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={12} md={12} lg={6}>
+          <Col sm={12} md={12} lg={6} style={{ padding: '1em' }}>
             <Card>
               <Card.Header style={{ color: '#4C4AC2' }} as="h5" align="left"><h4>Vote</h4></Card.Header>
               <Card.Body>
@@ -131,8 +132,8 @@ const Getinvolved = () => {
                   <Col sm={9}>
                     <Card.Title align="left"><h5><em>Exercise your right and vote now</em></h5></Card.Title>
                     <Card.Text align="left">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat venenatis est non euismod. Mauris quis sem ex. Sed eros nulla, gravida ut diam et, lobortis ullamcorper nibh. Mauris consequat faucibus quam, id suscipit massa mollis in. Curabitur rutrum magna dui. Vivamus vitae finibus est, id tincidunt velit. Mauris pellentesque magna vel magna fringilla, nec tincidunt sapien blandit. Curabitur imperdiet, lacus at varius elementum, leo lorem interdum dui, tempus bibendum sem tellus eget ante.              </Card.Text>
-                    {/* <Button variant="primary">Go somewhere</Button> */}
+                      <p>Make your voice heard and help make real change possible by participating in local and federal elections. By voting in upcoming elections you are able to make sure that causes you are passionate about are voted in. In addition, having conversations with your state and local representatives can bring spotlight on human and sex trafficking and hopefully onto your ballots. </p>
+                    </Card.Text>
                   </Col>
                 </Row>
               </Card.Body>
@@ -141,7 +142,7 @@ const Getinvolved = () => {
         </Row>
         <br></br>
         <Row>
-          <Col sm={12} md={12} lg={6}>
+          <Col sm={12} md={12} lg={6} style={{ padding: '1em' }}>
             <Card>
               <Card.Header style={{ color: '#4C4AC2' }} as="h5" align="left"><h4>Volunteer</h4></Card.Header>
               <Card.Body>
@@ -152,14 +153,15 @@ const Getinvolved = () => {
                   <Col sm={9}>
                     <Card.Title align="left"><h5><em>Create a lasting impact</em></h5></Card.Title>
                     <Card.Text align="left">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat venenatis est non euismod. Mauris quis sem ex. Sed eros nulla, gravida ut diam et, lobortis ullamcorper nibh. Mauris consequat faucibus quam, id suscipit massa mollis in. Curabitur rutrum magna dui. Vivamus vitae finibus est, id tincidunt velit. Mauris pellentesque magna vel magna fringilla, nec tincidunt sapien blandit. Curabitur imperdiet, lacus at varius elementum, leo lorem interdum dui, tempus bibendum sem tellus eget ante.              </Card.Text>
-                    {/* <Button variant="primary">Go somewhere</Button> */}
+                      <p>
+                        Volunteer today! Volunteering is a great way to get involved in making real change. Its free and is an important part in helping decrease th number of human and sex traffiking cases. We have a wide variety of ways you could volunteer based on your interests and time commitment.</p>
+                    </Card.Text>
                   </Col>
                 </Row>
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={12} md={12} lg={6}>
+          <Col sm={12} md={12} lg={6} style={{ padding: '1em' }}>
             <Card>
               <Card.Header style={{ color: '#4C4AC2' }} as="h5" align="left"><h4>Donate</h4></Card.Header>
               <Card.Body>
@@ -170,7 +172,8 @@ const Getinvolved = () => {
                   <Col sm={9}>
                     <Card.Title align="left"><h5><em>Go the extra mile</em></h5></Card.Title>
                     <Card.Text align="left">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat venenatis est non euismod. Mauris quis sem ex. Sed eros nulla, gravida ut diam et, lobortis ullamcorper nibh. Mauris consequat faucibus quam, id suscipit massa mollis in. Curabitur rutrum magna dui. Vivamus vitae finibus est, id tincidunt velit. Mauris pellentesque magna vel magna fringilla, nec tincidunt sapien blandit.  </Card.Text>
+                      <p>Consider donating today to a charity or organization of your choice to make a difference. We provide you with the necessary information that will help make it easier for you to donate to a charity you strongly align with. Every cent counts and many employers offer a donation match! Imagine the impact you could make! </p>
+                    </Card.Text>
                   </Col>
                 </Row>
                 <br></br>
@@ -190,45 +193,79 @@ const Getinvolved = () => {
           </Col>
         </Row>
         <br></br>
-        <Card>
-          <Card.Header style={{ color: '#4C4AC2' }} as="h5" align="left"><h4>Contact your Representatives</h4></Card.Header>
-          <Card.Body>
-            <Row>
-              <Col sm={2}>
-                <img src='Email.svg' height='100'></img>
-              </Col>
-              <Col sm={10}>
-                <Card.Title align="left"><h5><em>Use your voice, speak up and act now</em></h5></Card.Title>
-                <Card.Text align="left">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat venenatis est non euismod. Mauris quis sem ex. Sed eros nulla, gravida ut diam et, lobortis ullamcorper nibh. Mauris consequat faucibus quam, id suscipit massa mollis in. Curabitur rutrum magna dui. Vivamus vitae finibus est, id tincidunt velit. Mauris pellentesque magna vel magna fringilla, nec tincidunt sapien blandit. Curabitur imperdiet, lacus at varius elementum, leo lorem interdum dui, tempus bibendum sem tellus eget ante.
-              </Card.Text>
-                <Row>
-                  <Col>
-                    <Button style={{ backgroundColor: '#F5F5F5', borderColor: "#F5F5F5", color: "#4C4AC2", size: "lg" }} block onClick={() => HTsetModalShow(true)}>Human Trafficking</Button>
-                    <HTEmail
-                      show={HTmodalShow}
-                      onHide={() => HTsetModalShow(false)}
-                    />
-                  </Col>
-                  <Col>
-                    <Button style={{ backgroundColor: '#F5F5F5', borderColor: "#F5F5F5", color: "#4C4AC2", size: "lg" }} block onClick={() => STsetModalShow(true)}>Sex Trafficking</Button>
-                    <STEmail
-                      show={STmodalShow}
-                      onHide={() => STsetModalShow(false)}
-                    />
-                  </Col>
-                  <Col>
-                    <Button style={{ backgroundColor: '#F5F5F5', borderColor: "#F5F5F5", color: "#4C4AC2", size: "lg" }} block onClick={() => FSsetModalShow(true)}>Forced Sterilization</Button>
-                    <FSEmail
-                      show={FSmodalShow}
-                      onHide={() => FSsetModalShow(false)}
-                    />
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Card.Body>
-        </Card>
+        <Row style={{ padding: '1em' }}>
+          <Card>
+            <Card.Header style={{ color: '#4C4AC2' }} as="h5" align="left"><h4>Contact your Representatives</h4></Card.Header>
+            <Card.Body>
+              <Row>
+                <Col sm={2}>
+                  <img src='Email.svg' height='100'></img>
+                </Col>
+                <Col sm={10}>
+                  <Card.Title align="left"><h5><em>Use your voice, speak up and act now</em></h5></Card.Title>
+                  <Card.Text align="left">
+                    <p>The next step in helping is reaching out to your representative
+                    so that you can enact the change that you wish to see. It is your
+                    chance to make a change. No action is too small. Staying in touch
+                    with your local representative is the only way to ensure that your
+                    opinions are known and heard. There are a variety of different ways
+                    to contact your representative including by letter, phone, email, and
+                    even on rare occasions in person. All these ways are equally as
+                    effective however email is the fastest and most accessible form of
+                    contact. When writing your message make sure to:
+                  </p>
+                    <ul>
+                      <li>
+                        <p>
+                          Put your name and address at the top of the message.</p>
+                      </li>
+                      <li>
+                        <p>
+                          Humanize the message. Make it personal to YOU.</p>
+                      </li>
+                      <li>
+                        <p >
+                          Keep it brief and factual but concise.</p>
+                      </li>
+                      <li>
+                        <p>
+                          Disagree/agree with respect.</p>
+                      </li>
+                      <li>
+                        <p>
+                          Address them correctly.</p>
+                      </li>
+                    </ul>
+                  </Card.Text>
+                  <br></br>
+                  <Row>
+                    <Col>
+                      <Button style={{ backgroundColor: '#F5F5F5', borderColor: "#F5F5F5", color: "#4C4AC2", size: "lg" }} block onClick={() => HTsetModalShow(true)}>Human Trafficking</Button>
+                      <HTEmail
+                        show={HTmodalShow}
+                        onHide={() => HTsetModalShow(false)}
+                      />
+                    </Col>
+                    <Col>
+                      <Button style={{ backgroundColor: '#F5F5F5', borderColor: "#F5F5F5", color: "#4C4AC2", size: "lg" }} block onClick={() => STsetModalShow(true)}>Sex Trafficking</Button>
+                      <STEmail
+                        show={STmodalShow}
+                        onHide={() => STsetModalShow(false)}
+                      />
+                    </Col>
+                    <Col>
+                      <Button style={{ backgroundColor: '#F5F5F5', borderColor: "#F5F5F5", color: "#4C4AC2", size: "lg" }} block onClick={() => FSsetModalShow(true)}>Forced Sterilization</Button>
+                      <FSEmail
+                        show={FSmodalShow}
+                        onHide={() => FSsetModalShow(false)}
+                      />
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+            </Card.Body>
+          </Card>
+        </Row>
         <br></br>
       </Container >
     </main >
