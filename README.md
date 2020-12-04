@@ -1,14 +1,10 @@
-<div align="center">
-  <h1>Sanctuary</h1>
-  <img src="/public/termsPage.jpg" height="300" align="center/>
-</div>
+## About Sanctuary
 
-### About Sanctuary
 This project is created as part of the final for Informatics 442. Our mission is to create a solution to allow the general public to obtain accurate information concerning Human and Sex Trafficking in one location.
 
 Each member worked to contribute to Sanctuary based on their own personal skills and strengths. If you wish to contact a member of the team click on the button located below their photo snd description.
 
-### Contact
+## Contact
 
 If you have any issues, concerns, or questions please contact one of the following individuals. 
 
