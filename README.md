@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>Sanctuary</h1>
+  <img src="/public/termsPage.jpg" height="300" align="center/>
+</div>
+
+### About Sanctuary
+This project is created as part of the final for Informatics 442. Our mission is to create a solution to allow the general public to obtain accurate information concerning Human and Sex Trafficking in one location.
+
+Each member worked to contribute to Sanctuary based on their own personal skills and strengths. If you wish to contact a member of the team click on the button located below their photo snd description.
+
+### Contact
+
+If you have any issues, concerns, or questions please contact one of the following individuals. 
+
+## Getting Started 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
