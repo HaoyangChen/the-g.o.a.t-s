@@ -1,4 +1,4 @@
-<div align="center"> 
+<div text-align="center"> 
 <img src="/public/termsPage.jpg"height="300"/>
   
 # Sanctuary 
