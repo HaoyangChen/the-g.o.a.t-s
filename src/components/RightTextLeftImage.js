@@ -10,7 +10,7 @@ const RightTextLeftImage = (props) => {
         </h2>
         <p class="mt-paragraph">{props.paragraph}</p>
       </div>
-      <div class="half-half">
+      <div class="half-half text-left">
         <img src={props.imageSrc} alt={props.imageAlt}></img>
       </div>
     </div>
