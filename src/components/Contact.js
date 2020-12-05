@@ -1,11 +1,17 @@
 import React from "react";
 import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import banner from "../assets/banner.jpg";
+import haoyang from "../assets/contact/haoyang.jpeg";
+import rahma from "../assets/contact/rahma.jpg";
+// import haoyang from "../assets/contact/haoyang.jpeg";
+// import haoyang from "../assets/contact/haoyang.jpeg";
+// import haoyang from "../assets/contact/haoyang.jpeg";
 
 const Contact = () => {
   return (
     <main>
       <Card className="bg-light text-black">
-        <Card.Img src="banner.jpg" alt="Banner image" height="230" />
+        <Card.Img src={banner} alt="Banner image" height="230" />
         <Card.ImgOverlay>
           <Card.Title>
             <h1 style={{ fontSize: 80 }}>Contact</h1>
@@ -80,9 +86,9 @@ const Contact = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
-                src="haoyang.jpeg"
+                src={haoyang}
                 height="200"
-                alt="Haoyang"
+                alt="Haoyang Chen"
               />
               <Card.Body>
                 <Card.Title align="left">
@@ -114,12 +120,7 @@ const Contact = () => {
           </Col>
           <Col lg={4} align="left" style={{ padding: "1em" }}>
             <Card style={{ width: "18rem" }}>
-              <Card.Img
-                variant="top"
-                src="rahma.jpg"
-                height="200"
-                alt="Rahma"
-              />
+              <Card.Img variant="top" src={rahma} height="200" alt="Rahma" />
               <Card.Body>
                 <Card.Title align="left">
                   <h3>Rahma Kamel</h3>
