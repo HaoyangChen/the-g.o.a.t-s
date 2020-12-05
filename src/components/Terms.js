@@ -1,12 +1,9 @@
 import React from "react";
-import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import { Card, Container, Row, Col } from "react-bootstrap";
 import LeftTextRightImage from "./LeftTextRightImage";
 import RightTextLeftImage from "./RightTextLeftImage";
 import {
-  Box,
   Typography,
-  Paper,
-  Hidden,
   ExpansionPanel,
   ExpansionPanelSummary,
   ExpansionPanelDetails,

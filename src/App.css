@@ -30,6 +30,10 @@ p {
   flex-direction: column;
 }
 
+.card-title h5 {
+  margin-top: 20px;
+}
+
 .scroll {
   color: #fff;
   margin-top: 100px;

@@ -1,7 +1,4 @@
 import React from "react";
-// import logo from "../assets/logo.svg";
-// import { Card } from "react-bootstrap";
-import carouselImage1 from "../assets/home/carousel1.png";
 import LeftTextRightImage from "./LeftTextRightImage";
 import RightTextLeftImage from "./RightTextLeftImage";
 import learn1 from "../assets/home/learn1.svg";
