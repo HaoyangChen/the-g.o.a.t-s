@@ -18,7 +18,7 @@ const Contact = () => {
           <Col lg={7}>
             <p align='left'>
               This project is created as part of the final for Informatics 442. Our mission is to create a solution to allow the general public to obtain accurate information concerning Human and Sex Trafficking in one location. </p>
-            <p align='left'>Each member worked to contribute to Sanctuary based on their own personal skills and strengths. If you wish to contact a member of the team click on the button located below their photo snd description.</p>
+            <p align='left'>Each member worked to contribute to Sanctuary based on their own personal skills and strengths. If you wish to contact a member of the team click on the button located below their photo and description.</p>
           </Col>
           <Col lg={5}><img src='team.svg' height='190' alt="Animation of a group of four people"></img></Col>
         </Row>
