@@ -5,7 +5,9 @@
 
 </div>
 
-## About Sanctuary
+Once you understand the complexities of sex and human trafficking, you can get involved and help be an ally and advocate for both victims and survivors in your communities. By signing petitions, raising funds, spreading awareness, and taking other steps.
+
+## About 
 
 This project is created as part of the final for Informatics 442. Our mission is to create a solution to allow the general public to obtain accurate information concerning Human and Sex Trafficking in one location.
 
