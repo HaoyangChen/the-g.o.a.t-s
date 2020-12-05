@@ -30,10 +30,6 @@ p {
   flex-direction: column;
 }
 
-.card-title h5 {
-  margin-top: 20px;
-}
-
 .scroll {
   color: #fff;
   margin-top: 100px;
@@ -119,5 +115,11 @@ p {
 @media (max-width: 992px) {
   h1 {
     font-size: 40px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-title h5 {
+    margin-top: 20px;
   }
 }

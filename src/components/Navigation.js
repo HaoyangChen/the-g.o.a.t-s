@@ -41,30 +41,11 @@ const Navigation = () => {
               Learn
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              {/* <Link className="dropdown-item font-weight-bold" to="/faq">
-                FAQ
-              </Link> */}
               <Link className="dropdown-item font-weight-bold" to="/terms">
                 Terms
               </Link>
-              {/* <Link className="dropdown-item font-weight-bold" to="/causes">
-                Causes
-              </Link>
-              <Link className="dropdown-item font-weight-bold" to="/process">
-                Process
-              </Link>
-              <Link className="dropdown-item font-weight-bold" to="/stories">
-                Their Stories
-              </Link> */}
             </div>
           </li>
-          {/* <li
-            className={"nav-item " + (rootPath === "resources" ? "active" : "")}
-          > */}
-          {/* <Link className="nav-link font-weight-bold" to="/resources">
-              Resources
-            </Link> */}
-          {/* </li> */}
           <li
             className={
               "nav-item " + (rootPath === "getinvolved" ? "active" : "")

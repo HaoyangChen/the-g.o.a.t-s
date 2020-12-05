@@ -89,10 +89,13 @@ const Contact = () => {
                   <h3>Haoyang Chen</h3>{" "}
                 </Card.Title>
                 <Card.Text align="left">
-                  <h5 style={{ color: "#4C4AC2" }}>Full-Stack Developer</h5>
+                  <h5 style={{ color: "#4C4AC2" }}>
+                    Full-Stack Software Engineer
+                  </h5>
                   <p>
-                    I am an Informatics Senior Student with an emphasis on
-                    Software Development at the University of Washington.
+                    Informatics Senior with a focus on Software Development at
+                    the University of Washington. Passionate about building
+                    web/mobile applications
                   </p>
                 </Card.Text>
                 <Button
