@@ -1,9 +1,13 @@
-.footer-color {
-  background-color: #7d7d7d;
+.footer-color a {
+  color: #333333 !important;
 }
 
 .color-white {
   color: white;
+}
+
+.footer-color {
+  background-color: #f0f0f0;
 }
 
 .img-fluid {

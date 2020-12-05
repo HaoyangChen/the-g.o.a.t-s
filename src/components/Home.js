@@ -8,75 +8,23 @@ import learn1 from "../assets/home/learn1.svg";
 import learn2 from "../assets/home/learn2.svg";
 import learn3 from "../assets/home/learn3.svg";
 import { Container } from "react-bootstrap";
+import "../styles/Home.css";
 
 const Home = () => {
   return (
     <main>
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src={carouselImage1} alt="First slide" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Stopping sex trafficking takes all of us</h5>
-              <p>Sanctuary invites you to this community</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src={carouselImage1}
-              alt="Second slide"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Stopping sex trafficking takes all of us</h5>
-              <p>Sanctuary invites you to this community</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src={carouselImage1} alt="Third slide" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Stopping sex trafficking takes all of us</h5>
-              <p>Sanctuary invites you to this community</p>
-            </div>
-          </div>
+      <div class="homepage-banner">
+        <div class="slogan">
+          <h1>
+            Stopping sex trafficking takes all of us. <span>Sanctuary </span>
+            invites you to this community.
+          </h1>
         </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-      {/* <div class="main-section"> */}
       <Container>
         <div className="left-right row-reversed">
           <div className="half-half text-align text-left pd-left">
-            <h2 className={"underline-with-color blue-underline"}>Overview</h2>
+            <h2 className={"underline-with-color blue-underline"}>Overview.</h2>
             <p class="mt-paragraph">
               Watch the introductory video to gain an understanding of the human
               and sex trafficking crisis in the United States, and see what you
