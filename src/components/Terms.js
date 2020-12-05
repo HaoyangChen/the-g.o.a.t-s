@@ -17,16 +17,17 @@ import method from "../assets/terms/method.svg";
 import system from "../assets/terms/system.svg";
 import control from "../assets/terms/control.svg";
 import termsPage from "../assets/terms/termsPage.jpg";
+import banner from "../assets/banner.jpg";
 import "../styles/Terms.css";
 
 const Terms = () => {
   return (
     <main>
       <Card className="bg-light text-black">
-        <Card.Img src="banner.jpg" alt="Banner image" height="230" />
+        <Card.Img src={banner} alt="Banner image" height="230" />
         <Card.ImgOverlay>
           <Card.Title>
-            <h1 style={{ fontSize: 80 }}>Terminology</h1>
+            <h1>Terminology</h1>
           </Card.Title>
           <Card.Text>
             <p style={{ fontSize: 20 }}>
@@ -40,7 +41,7 @@ const Terms = () => {
       <Container>
         <br></br>
         <Row>
-          <Col lg={4} className="text-left">
+          <Col lg={4} className="text-md-left">
             <img
               src={termsPage}
               height="250"
