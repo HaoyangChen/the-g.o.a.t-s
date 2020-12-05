@@ -76,7 +76,7 @@ const Home = () => {
       <Container>
         <div className="left-right row-reversed">
           <div className="half-half text-align text-left pd-left">
-            <h2 className={"underline-with-color blue-underline"}>Overview</h2>
+            <h2 className={"underline-with-color blue-underline"}>Overview.</h2>
             <p class="mt-paragraph">
               Watch the introductory video to gain an understanding of the human
               and sex trafficking crisis in the United States, and see what you

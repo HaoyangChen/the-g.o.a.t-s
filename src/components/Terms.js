@@ -8,7 +8,7 @@ const Terms = () => {
   return (
     <main>
       <Card className="bg-light text-black">
-        <Card.Img src="banner.jpg" alt="Card image" height='230' />
+        <Card.Img src="banner.jpg" alt="Banner image" height='230' />
         <Card.ImgOverlay>
           <Card.Title><h1 style={{ fontSize: 80 }}>Terminology</h1></Card.Title>
           <Card.Text>
@@ -20,7 +20,7 @@ const Terms = () => {
       <Container >
         <br></br>
         <Row>
-          <Col lg={4}><img src='termsPage.jpg' height='250'></img></Col>
+          <Col lg={4}><img src='termsPage.jpg' height='250' alt="Girl in cage animation"></img></Col>
           <Col lg={8}><p align='left'>As educators, bystanders and allies, it is essential to understand and recognize the terminology associated with the acts of sex and human trafficking so that you can stay aware and properly intervene in this growing issue.</p>
             <p align="left">There are have been more than 20 million cases worldwide of human trafficking. It is essential that people have access to adequate information about this issue in order to help put a stop to these growing cases.</p>
             <p align='left'>Below are a list of important terminologies that are recommended to know in order to properly be able to understand the complexity of this space and to have the necessary foundation to make real change possible.</p>
@@ -40,7 +40,7 @@ const Terms = () => {
             </Row>
           </Col>
           <Col sm={4}>
-            <img src='type.svg' height='200'></img>
+            <img src='type.svg' height='200' alt="Group amimation"></img>
           </Col>
           <br></br>
         </Row>
@@ -48,7 +48,7 @@ const Terms = () => {
         <Row>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Human Trafficking
                   </Typography>
@@ -72,7 +72,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Sex Trafficking
                   </Typography>
@@ -96,7 +96,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Labor Trafficking
                   </Typography>
@@ -129,7 +129,7 @@ const Terms = () => {
             </Row>
           </Col>
           <Col sm={4}>
-            <img src='method.svg' height='200'></img>
+            <img src='method.svg' height='200' alt="Method animation"></img>
           </Col>
           <br></br>
         </Row>
@@ -162,7 +162,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Grooming
                   </Typography>
@@ -186,7 +186,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Seasoning
                   </Typography>
@@ -210,7 +210,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Isolation
                   </Typography>
@@ -244,14 +244,14 @@ const Terms = () => {
             </Row>
           </Col>
           <Col sm={4}>
-            <img src='system.svg' height='200'></img>
+            <img src='system.svg' height='200' alt="System animation"></img>
           </Col>
         </Row>
         <br></br>
         <Row>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Facilitators
                   </Typography>
@@ -275,7 +275,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Circuit
                   </Typography>
@@ -299,7 +299,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Finesse Pimp
                   </Typography>
@@ -323,7 +323,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Madam
                   </Typography>
@@ -347,7 +347,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Bottom
                   </Typography>
@@ -381,14 +381,14 @@ const Terms = () => {
             </Row>
           </Col>
           <Col sm={4}>
-            <img src='control.svg' height='200'></img>
+            <img src='control.svg' height='200' alt="Control animation"></img>
           </Col>
         </Row>
         <br></br>
         <Row>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Branding
                   </Typography>
@@ -412,7 +412,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Automatic
                   </Typography>
@@ -436,7 +436,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Exit Fee
                   </Typography>
@@ -460,7 +460,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Collusion
                 </Typography>
@@ -484,7 +484,7 @@ const Terms = () => {
           </Col>
           <Col sm={12} md={6} lg={4} style={{ padding: '1em' }}>
             <ExpansionPanel style={{ background: '#F2F2F2' }}>
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-label="Open">
                 <Typography component='overline' variant='overline' color='primary' >
                   Debt Bondage
                 </Typography>
