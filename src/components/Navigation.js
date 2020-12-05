@@ -58,13 +58,13 @@ const Navigation = () => {
               </Link> */}
             </div>
           </li>
-          <li
+          {/* <li
             className={"nav-item " + (rootPath === "resources" ? "active" : "")}
-          >
-            {/* <Link className="nav-link font-weight-bold" to="/resources">
+          > */}
+          {/* <Link className="nav-link font-weight-bold" to="/resources">
               Resources
             </Link> */}
-          </li>
+          {/* </li> */}
           <li
             className={
               "nav-item " + (rootPath === "getinvolved" ? "active" : "")
