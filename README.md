@@ -1,3 +1,7 @@
+<div align="center"> <img src="/public/termsPage.jpg"/ height="300"></div>
+
+# Sanctuary 
+
 ## About Sanctuary
 
 This project is created as part of the final for Informatics 442. Our mission is to create a solution to allow the general public to obtain accurate information concerning Human and Sex Trafficking in one location.
@@ -6,7 +10,13 @@ Each member worked to contribute to Sanctuary based on their own personal skills
 
 ## Contact
 
-If you have any issues, concerns, or questions please contact one of the following individuals. 
+If you have any issues, concerns, or questions please contact one of the following individuals:
+
+* Rahma Kamel: kamelr@ue.edu
+* Meesha Hussain: hussam2@uw.edu  
+* Salem Gordon: salemg@uw.edu
+* Haoyang Chen: haoyac2@uw.edu
+* Rawuda Jemal: rawuda@uw.edu
 
 ## Getting Started 
 
