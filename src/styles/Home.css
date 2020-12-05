@@ -29,3 +29,25 @@
 .slogan h1 span {
   color: #4993bd;
 }
+
+@media (max-width: 768px) {
+  .slogan {
+    width: 100%;
+  }
+
+  .slogan h1 {
+    font-size: 25px;
+  }
+
+  .left-right {
+    display: block;
+  }
+
+  .pd-left {
+    padding-left: 0px;
+  }
+
+  .pd-right {
+    padding-right: 0px;
+  }
+}
