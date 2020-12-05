@@ -1,6 +1,9 @@
-<div align="center"> <img src="/public/termsPage.jpg"/ height="300"></div>
+<div align="center"> 
+<img src="/public/termsPage.jpg"/ height="300">
+
 
 # Sanctuary 
+</div>
 
 ## About Sanctuary
 
