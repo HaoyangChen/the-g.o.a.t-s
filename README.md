@@ -1,4 +1,29 @@
-# Getting Started with Create React App
+<div text-align="center"> 
+<img src="/public/termsPage.jpg"height="300"/>
+  
+# Sanctuary 
+
+</div>
+
+Once you understand the complexities of sex and human trafficking, you can get involved and help be an ally and advocate for both victims and survivors in your communities. By signing petitions, raising funds, spreading awareness, and taking other steps.
+
+## About 
+
+This project is created as part of the final for Informatics 442. Our mission is to create a solution to allow the general public to obtain accurate information concerning Human and Sex Trafficking in one location.
+
+Each member worked to contribute to Sanctuary based on their own personal skills and strengths. If you wish to contact a member of the team click on the button located below their photo snd description.
+
+## Contact
+
+If you have any issues, concerns, or questions please contact one of the following individuals:
+
+* Rahma Kamel: kamelr@ue.edu
+* Meesha Hussain: hussam2@uw.edu  
+* Salem Gordon: salemg@uw.edu
+* Haoyang Chen: haoyac2@uw.edu
+* Rawuda Jemal: rawuda@uw.edu
+
+## Getting Started 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
