@@ -2,10 +2,11 @@ import React from "react";
 import { Card, Button, Container, Row, Col } from "react-bootstrap";
 import banner from "../assets/banner.jpg";
 import haoyang from "../assets/contact/haoyang.jpeg";
-import rahma from "../assets/contact/rahma.jpg";
-// import haoyang from "../assets/contact/haoyang.jpeg";
-// import haoyang from "../assets/contact/haoyang.jpeg";
-// import haoyang from "../assets/contact/haoyang.jpeg";
+import rahma from "../assets/contact/rahma.jpeg";
+import meesha from "../assets/contact/meesha.jpeg";
+import rawuda from "../assets/contact/rawuda.jpeg";
+import salem from "../assets/contact/salem.jpeg";
+import team from "../assets/contact/team.svg";
 
 const Contact = () => {
   return (
@@ -39,7 +40,7 @@ const Contact = () => {
           </Col>
           <Col lg={5}>
             <img
-              src="team.svg"
+              src={team}
               height="190"
               alt="Animation of a group of four people"
             ></img>
@@ -48,12 +49,7 @@ const Contact = () => {
         <Row style={{ padding: "1em" }}>
           <Col lg={4} align="left" style={{ padding: "1em" }}>
             <Card style={{ width: "18rem" }}>
-              <Card.Img
-                variant="top"
-                src="meesha.jpeg"
-                height="200"
-                alt="Meesha"
-              />
+              <Card.Img variant="top" src={meesha} height="200" alt="Meesha" />
               <Card.Body>
                 <Card.Title align="left">
                   <h3>Meesha Hussain</h3>
@@ -150,12 +146,7 @@ const Contact = () => {
           </Col>
           <Col lg={4} align="left" style={{ padding: "1em" }}>
             <Card style={{ width: "18rem" }}>
-              <Card.Img
-                variant="top"
-                src="salem.jpeg"
-                height="200"
-                alt="Salem"
-              />
+              <Card.Img variant="top" src={salem} height="200" alt="Salem" />
               <Card.Body>
                 <Card.Title align="left">
                   <h3>Salem Gordon</h3>
@@ -184,12 +175,7 @@ const Contact = () => {
           </Col>
           <Col align="left" style={{ padding: "1em" }}>
             <Card style={{ width: "18rem" }}>
-              <Card.Img
-                variant="top"
-                src="rawuda.jpeg"
-                height="200"
-                alt="Rawuda"
-              />
+              <Card.Img variant="top" src={rawuda} height="200" alt="Rawuda" />
               <Card.Body>
                 <Card.Title align="left">
                   <h3>Rawuda Jemal</h3>
