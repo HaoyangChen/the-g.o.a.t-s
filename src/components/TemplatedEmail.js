@@ -169,9 +169,7 @@ const TemplatedEmail = () => {
                   id: "tone-native-simple",
                 }}
               >
-                <option aria-label="None" value="">
-                  Select Tone
-                </option>
+                <option aria-label="None" value="" />
                 <option value={"Angry"}>Angry</option>
                 <option value={"Emotional"}>Emotional</option>
                 <option value={"Excited"}>Excited</option>
