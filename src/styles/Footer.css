@@ -1,0 +1,21 @@
+.footer-color a {
+  color: #333333 !important;
+}
+
+.color-white {
+  color: white;
+}
+
+.footer-color {
+  background-color: #f0f0f0;
+}
+
+.img-fluid {
+  height: 110px !important;
+}
+
+@media (max-width: 992px) {
+  .img-fluid {
+    height: auto !important;
+  }
+}

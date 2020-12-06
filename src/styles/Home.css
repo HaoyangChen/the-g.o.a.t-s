@@ -1,0 +1,54 @@
+.homepage-banner {
+  background: url(../assets/home/banner.jpg);
+  height: 529px;
+  background-size: 100%;
+}
+
+.slogan {
+  width: 649px;
+  height: 421px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 0px 0px 126px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan h1 {
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 42px;
+  line-height: 65px;
+  /* or 155% */
+  letter-spacing: 0.03em;
+  color: #424242;
+  text-align: left;
+  padding: 50px;
+}
+
+.slogan h1 span {
+  color: #4993bd;
+}
+
+@media (max-width: 768px) {
+  .slogan {
+    width: 100%;
+  }
+
+  .slogan h1 {
+    font-size: 25px !important;
+  }
+
+  .left-right {
+    display: block;
+  }
+
+  .pd-left {
+    padding-left: 0px;
+  }
+
+  .pd-right {
+    padding-right: 0px;
+  }
+}
