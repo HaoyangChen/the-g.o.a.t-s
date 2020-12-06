@@ -48,7 +48,7 @@ const Contact = () => {
         </Row>
         <Row style={{ padding: "1em" }}>
           <Col lg={4} align="left" style={{ padding: "1em" }}>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem" }} className="margin-center">
               <Card.Img variant="top" src={meesha} height="200" alt="Meesha" />
               <Card.Body>
                 <Card.Title align="left">
@@ -79,7 +79,7 @@ const Contact = () => {
             </Card>
           </Col>
           <Col align="left" style={{ padding: "1em" }}>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem" }} className="margin-center">
               <Card.Img
                 variant="top"
                 src={haoyang}
@@ -115,7 +115,7 @@ const Contact = () => {
             </Card>
           </Col>
           <Col lg={4} align="left" style={{ padding: "1em" }}>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem" }} className="margin-center">
               <Card.Img variant="top" src={rahma} height="200" alt="Rahma" />
               <Card.Body>
                 <Card.Title align="left">
@@ -145,7 +145,7 @@ const Contact = () => {
             </Card>
           </Col>
           <Col lg={4} align="left" style={{ padding: "1em" }}>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem" }} className="margin-center">
               <Card.Img variant="top" src={salem} height="200" alt="Salem" />
               <Card.Body>
                 <Card.Title align="left">
@@ -174,7 +174,7 @@ const Contact = () => {
             </Card>
           </Col>
           <Col align="left" style={{ padding: "1em" }}>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem" }} className="margin-center">
               <Card.Img variant="top" src={rawuda} height="200" alt="Rawuda" />
               <Card.Body>
                 <Card.Title align="left">
