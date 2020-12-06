@@ -1,6 +1,7 @@
 .homepage-banner {
   background: url(../assets/home/banner.jpg);
   height: 529px;
+  background-size: 100%;
 }
 
 .slogan {
