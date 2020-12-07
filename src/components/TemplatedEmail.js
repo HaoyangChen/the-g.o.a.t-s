@@ -4,16 +4,14 @@ import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
-import { Form, Field } from "react-final-form";
+import { Form } from "react-final-form";
 import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
 import { TextareaAutosize } from "@material-ui/core";
 
 import InputLabel from "@material-ui/core/InputLabel";
-import FormHelperText from "@material-ui/core/FormHelperText";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
-import NativeSelect from "@material-ui/core/NativeSelect";
 
 const useStyles = makeStyles((theme) => ({
   title: {
@@ -43,8 +41,6 @@ const onSubmit = async (values) => {
   window.alert(JSON.stringify(values, 0, 2));
 };
 
-const required = (value) => (value ? undefined : "Required");
-
 const TemplatedEmail = () => {
   const classes = useStyles();
 
@@ -52,28 +48,11 @@ const TemplatedEmail = () => {
   const textAreaRef = useRef(null);
   const subjectTextAreaRef = useRef(null);
 
-  const recipients = [
-    {
-      value: "rep1",
-      label: "Representative 1",
-    },
-    {
-      value: "rep2",
-      label: "Representative 2",
-    },
-  ];
-
   const [tone, setTone] = React.useState("");
 
   const handleChange = (event) => {
     const targetTone = event.target.value;
-    console.log("tone is : " + targetTone);
     setTone(targetTone);
-    // setState({
-    //   ...state,
-    //   [tone]: event.target.value,
-    // });
-    // getSubject();
   };
 
   function copyToClipboard(e) {
@@ -111,8 +90,6 @@ const TemplatedEmail = () => {
   }
 
   function getSubject() {
-    console.log("testing: " + tone);
-    console.log(tone);
     let subjectResult = "";
     switch (tone) {
       case "Angry":
@@ -131,7 +108,6 @@ const TemplatedEmail = () => {
         subjectResult = "Please Select a Tone to Start the Subject Line";
     }
     return tone ? subjectResult : tone;
-    //   "RE: (state the topic or include the bill number, author and subject if you are writing to support or oppose a particular legislative bill) \n"
   }
 
   function getEmailContent() {
