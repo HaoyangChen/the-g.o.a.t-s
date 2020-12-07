@@ -116,16 +116,16 @@ const TemplatedEmail = () => {
     let subjectResult = "";
     switch (tone) {
       case "Angry":
-        subjectResult = "Angry Subject Line";
+        subjectResult = "What are YOU doing about this growing issue?";
         break;
       case "Emotional":
-        subjectResult = "Emotional Subject Line";
+        subjectResult = "Voicing my concern about an important issue.";
         break;
       case "Excited":
-        subjectResult = "Excited Subject Line";
+        subjectResult = "I have faith you can help with this issue.";
         break;
       case "Disappointed":
-        subjectResult = "Disappointed Subject Line";
+        subjectResult = "Disappointed in our proactivity and lack of concern.";
         break;
       default:
         subjectResult = "Please Select a Tone to Start the Subject Line";

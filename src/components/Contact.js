@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Button, Container, Row, Col } from "react-bootstrap";
 import banner from "../assets/banner.jpg";
 import haoyang from "../assets/contact/haoyang.jpeg";
-import rahma from "../assets/contact/rahma.jpeg";
+import rahma from "../assets/contact/rahma.JPG";
 import meesha from "../assets/contact/meesha.jpeg";
 import rawuda from "../assets/contact/rawuda.jpeg";
 import salem from "../assets/contact/salem.jpeg";
