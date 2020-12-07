@@ -141,12 +141,7 @@ const Getinvolved = () => {
               can create meaningful change and fight against human and sex
               trafficking.{" "}
             </p>
-            <p align="left">
-              Once you understand the complexities of sex and human trafficking,
-              you can get involved and help be an ally and advocate for both
-              victims and survivors in your communities. By signing petitions,
-              raising funds, spreading awareness, and taking other steps.
-            </p>
+            <p align="left">This fight needs supporters that care about the cause, people that are willing to go out of their way to battle a serious and overwhelming problem. It starts with you. Are you ready to get involved?</p>
           </Col>
           <Col lg={5}>
             <img
