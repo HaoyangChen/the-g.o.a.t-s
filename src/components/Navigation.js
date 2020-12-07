@@ -28,23 +28,10 @@ const Navigation = () => {
               Home
             </Link>
           </li>
-          <li class="nav-item dropdown ">
-            <a
-              class="nav-link dropdown-toggle font-weight-bold"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Learn
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <Link className="dropdown-item font-weight-bold" to="/terms">
-                Terms
-              </Link>
-            </div>
+          <li className={"nav-item " + (rootPath === "terms" ? "active" : "")}>
+            <Link className="nav-link font-weight-bold" to="/terms">
+              Terms
+            </Link>
           </li>
           <li
             className={
