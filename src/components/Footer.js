@@ -18,11 +18,6 @@ const Footer = () => {
             </Link>
           </div>
           <div class="col-sm">
-            <Link className="nav-link font-weight-bold" to="/resources">
-              Resources
-            </Link>
-          </div>
-          <div class="col-sm">
             <Link className="nav-link font-weight-bold" to="/contact">
               Contact
             </Link>
